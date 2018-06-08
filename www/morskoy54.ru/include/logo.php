@@ -1,0 +1,1 @@
+<a href="<?=SITE_DIR?>"><img src="<?=SITE_DIR?>logo.png" alt="Морской" title="Морской" /></a>

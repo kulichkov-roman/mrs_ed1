@@ -1,7 +1,7 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("О компании");?>
 <?$GLOBALS['arCompanyItemsFilter'] = array('!PROPERTY_COMPANY_BLOCK' => false);?>
-						<?$APPLICATION->IncludeComponent(
+<?$APPLICATION->IncludeComponent(
 	"bitrix:news.list", 
 	"company-detail", 
 	array(

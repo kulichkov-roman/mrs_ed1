@@ -57,28 +57,28 @@ $APPLICATION->SetTitle("Контакты");?>
 		<div class="map_block">
 			<?Bitrix\Main\Page\Frame::getInstance()->startDynamicWithID("map-block");?>
 			<?$APPLICATION->IncludeComponent(
-	"bitrix:map.google.view", 
-	"resort", 
-	array(
-		"INIT_MAP_TYPE" => "ROADMAP",
-		"MAP_DATA" => "a:4:{s:10:\"google_lat\";d:54.922085864972;s:10:\"google_lon\";d:59.22640090331993;s:12:\"google_scale\";i:7;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:4:\"TEXT\";s:13:\"Аспро: Курорт\";s:3:\"LON\";d:59.230728149414;s:3:\"LAT\";d:54.914908688182;}}}",
-		"MAP_WIDTH" => "100%",
-		"MAP_HEIGHT" => "500",
-		"CONTROLS" => array(
-		),
-		"OPTIONS" => array(
-			0 => "ENABLE_DBLCLICK_ZOOM",
-			1 => "ENABLE_DRAGGING",
-			2 => "ENABLE_KEYBOARD",
-		),
-		"MAP_ID" => "",
-		"COMPONENT_TEMPLATE" => "resort",
-		'ZOOM_BLOCK' => array(
-			'POSITION' => 'right bottom'
-		)
-	),
-	false
-);
+				"bitrix:map.yandex.view",
+				"",
+				array(
+					"INIT_MAP_TYPE" => "ROADMAP",
+					"MAP_DATA" => "a:4:{s:10:\"yandex_lat\";d:54.594618153489556;s:10:\"yandex_lon\";d:82.37214768558157;s:12:\"yandex_scale\";i:15;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:3:\"LON\";d:82.37455094485892;s:3:\"LAT\";d:54.594692912168945;s:4:\"TEXT\";s:14:\"Морской\";}}}",
+					"MAP_WIDTH" => "100%",
+					"MAP_HEIGHT" => "500",
+					"CONTROLS" => array(
+					),
+					"OPTIONS" => array(
+						0 => "ENABLE_DBLCLICK_ZOOM",
+						1 => "ENABLE_DRAGGING",
+						2 => "ENABLE_KEYBOARD",
+					),
+					"MAP_ID" => "",
+					"COMPONENT_TEMPLATE" => "resort",
+					'ZOOM_BLOCK' => array(
+						'POSITION' => 'right bottom'
+					)
+				),
+				false
+			);
 			?>
 			<?Bitrix\Main\Page\Frame::getInstance()->finishDynamicWithID("map-block", "");?>
 		</div>
