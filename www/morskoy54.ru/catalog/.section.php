@@ -1,5 +1,5 @@
 <?
-$sSectionName = "Проживание";
+$sSectionName = "Участки";
 $arDirProperties = Array(
    "MENU" => "Y",
    "MENU_SHOW_ELEMENTS" => "Y",
