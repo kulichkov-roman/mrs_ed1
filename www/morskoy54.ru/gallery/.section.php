@@ -1,5 +1,5 @@
 <?
-$sSectionName = "Мероприятия";
+$sSectionName = "Галерея";
 $arDirProperties = Array(
    "MENU" => "N"
 );
