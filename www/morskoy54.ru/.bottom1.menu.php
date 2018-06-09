@@ -2,7 +2,7 @@
 $aMenuLinks = Array(
 	Array(
 		"Расположение", 
-		"/company/", 
+		"/location/",
 		Array(), 
 		Array(), 
 		"" 
