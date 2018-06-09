@@ -1,5 +1,5 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("О компании");?>
+$APPLICATION->SetTitle("Расположение");?>
 <?$GLOBALS['arCompanyItemsFilter'] = array('!PROPERTY_COMPANY_BLOCK' => false);?>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list", 
@@ -75,4 +75,4 @@ $APPLICATION->SetTitle("О компании");?>
 	),
 	false
 );?>
- <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
