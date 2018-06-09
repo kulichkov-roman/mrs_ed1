@@ -22,9 +22,9 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Галерея", 
-		"/gallery/", 
-		Array(), 
+		"Галерея",
+		"/documents/",
+		Array(),
 		Array(), 
 		"" 
 	),
