@@ -1,6 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Информация");
+$APPLICATION->SetTitle("Документы");
 ?><div>
  <img src="/images/inner1.jpg" class="img-responsive">
 </div>

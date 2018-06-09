@@ -1,6 +1,6 @@
 <?
-$sSectionName = "Информация";
+$sSectionName = "Документы";
 $arDirProperties = Array(
-   "MENU" => "Y"
+   "MENU" => "N"
 );
 ?>
