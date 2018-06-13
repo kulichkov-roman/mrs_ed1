@@ -2,9 +2,33 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Документы");
 ?>
-
-    <h2>Правила землепользования и застройки  новопичуговского сельсовета Ордынского района Новосибирской области (выдержки, проект).</h2>
-    <h3>Часть II. Градостроительные регламенты</h3>
+    <h2>Список документов</h2>
+    <div class="row docs">
+        <div class="col-md-12 item">
+            <div class="icons  doc">
+                <a href="https://drive.google.com/file/d/159j2lQaAiRQi1_T31DAwQmUBPTGydIBX/view?usp=sharing" target="_blank" title="ПЗЗ"></a>
+            </div>
+            <div class="text">
+                <a href="https://drive.google.com/file/d/159j2lQaAiRQi1_T31DAwQmUBPTGydIBX/view?usp=sharing" target="_blank" title="ПЗЗ">ПЗЗ</a>
+                Размер:
+                <span>436 Кб</span>
+            </div>
+        </div>
+        <div class="col-md-12 item">
+            <div class="icons jpg">
+                <a rel="nofollow" href="https://drive.google.com/open?id=1bqEEKpm-l7Ru8_lOwEADFOM5EhFi7_un" target="_blank" title="ПЗЗ Новопучигово"></a>
+            </div>
+            <div class="text">
+                <a rel="nofollow" href="https://drive.google.com/open?id=1bqEEKpm-l7Ru8_lOwEADFOM5EhFi7_un" target="_blank" title="ПЗЗ Новопучигово">ПЗЗ Новопучигово</a>
+                Размер:
+                <span>9 Мб</span>
+            </div>
+        </div>
+    </div>
+    <hr class="tall">
+    <h2>Выдержки из документов</h2>
+    <h3>Правила землепользования и застройки  новопичуговского сельсовета Ордынского района Новосибирской области (выдержки, проект).</h3>
+    <h4>Часть II. Градостроительные регламенты</h4>
     <p>1. Градостроительные регламенты в части видов разрешенного использования земельных участков и объектов капитального строительства, предельных размеров земельных участков и предельных параметров разрешенного строительства, реконструкции объектов капитального строительства по территориальным зонам.</p>
     <p>Общие положения<p>
     <ul>
@@ -17,7 +41,7 @@ $APPLICATION->SetTitle("Документы");
     </ul>
     <hr class="tall">
     <p>2.2 Градостроительные регламенты в части предельных (минимальных и (или) максимальных) размеров земельных участков и предельных параметров разрешенного строительства, реконструкции объектов капитального строительства по территориальным зонам.</p>
-    <h5>Предельные (минимальные и (или) максимальные) размеры земельных участков и предельные параметры разрешенного строительства, реконструкции объектов капитального строительства*.</h5>
+    <h4>Предельные (минимальные и (или) максимальные) размеры земельных участков и предельные параметры разрешенного строительства, реконструкции объектов капитального строительства*.</h4>
     <table class="table table-bordered">
         <tr>
             <th nowrap>№ п.</th>
@@ -32,8 +56,8 @@ $APPLICATION->SetTitle("Документы");
             <td nowrap>Отступ&nbsp;min,<br>(м)</td>
             <td nowrap>Этаж&nbsp;min,</td>
             <td nowrap>Этаж&nbsp;max,</td>
-            <td nowrap>Процент<br>застройки<br>min,</td>
-            <td nowrap>Процент<br>застройки<br>max,</td>
+            <td nowrap>Процент<br>застройки<br>min</td>
+            <td nowrap>Процент<br>застройки<br>max</td>
         </tr>
         <tr>
             <td nowrap>1.</td>
@@ -113,31 +137,4 @@ $APPLICATION->SetTitle("Документы");
             <td>80</td>
         </tr>
     </table>
-    <hr class="tall">
-    <h2>Список документов</h2>
-    <div class="row docs">
-        <div class="col-md-12 item">
-            <div class="icons  xls">
-                <a href="/upload/iblock/08c/08ca67fc3907dd951f7ca6002a0d8235.xlsx" target="_blank" title="Прайс"></a>
-            </div>
-            <div class="text">
-                <a href="/upload/iblock/08c/08ca67fc3907dd951f7ca6002a0d8235.xlsx" target="_blank" title="Прайс">Прайс</a>
-                Размер:
-                <span>4.9  Кб</span>
-            </div>
-        </div>
-        <div class="col-md-12 item">
-            <div class="icons jpg">
-                <a rel="nofollow" href="https://drive.google.com/open?id=1bqEEKpm-l7Ru8_lOwEADFOM5EhFi7_un" target="_blank" title="ПЗЗ"></a>
-                Размер:
-                <span>9 Мб</span>
-            </div>
-            <div class="icons jpg">
-                <a rel="nofollow" href="/upload/iblock/c51/c51dd62246b58735b861aee79479c4f9.pdf" target="_blank" title="Услуги">Услуги</a>
-                Размер:
-                <span>373.9  Кб</span>
-            </div>
-        </div>
-    </div>s
-
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
