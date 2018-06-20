@@ -57,31 +57,35 @@ $APPLICATION->SetTitle("Контакты");?>
 		<div class="map_block">
 			<?Bitrix\Main\Page\Frame::getInstance()->startDynamicWithID("map-block");?>
 			<?$APPLICATION->IncludeComponent(
-				"bitrix:map.yandex.view",
-				"",
-				array(
-					"INIT_MAP_TYPE" => "ROADMAP",
-					"MAP_DATA" => "a:4:{s:10:\"yandex_lat\";d:54.59371933617034;s:10:\"yandex_lon\";d:82.37143585682674;s:12:\"yandex_scale\";i:15;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:3:\"LON\";d:82.37313101292415;s:3:\"LAT\";d:54.59443578368301;s:4:\"TEXT\";s:42:\"База отдыха «Пичугово»\";}}}",
-					"MAP_WIDTH" => "100%",
-					"MAP_HEIGHT" => "500",
-					"CONTROLS" => array(
-					),
-					"OPTIONS" => array(
-						0 => "ENABLE_DBLCLICK_ZOOM",
-						1 => "ENABLE_DRAGGING",
-						2 => "ENABLE_KEYBOARD",
-					),
-					"MAP_ID" => "",
-					"COMPONENT_TEMPLATE" => "resort",
-					"ZOOM_BLOCK" => array(
-						"POSITION" => "right bottom",
-					),
-					"API_KEY" => "AIzaSyAne2PJNwl-TTN0MOowYxhYwks6YUjpzvQ",
-					"COMPOSITE_FRAME_MODE" => "A",
-					"COMPOSITE_FRAME_TYPE" => "AUTO"
-				),
-				false
-			);
+	"bitrix:map.yandex.view", 
+	".default", 
+	array(
+		"INIT_MAP_TYPE" => "MAP",
+		"MAP_DATA" => "a:4:{s:10:\"yandex_lat\";d:54.59371933617034;s:10:\"yandex_lon\";d:82.37143585682674;s:12:\"yandex_scale\";i:15;s:10:\"PLACEMARKS\";a:1:{i:0;a:3:{s:3:\"LON\";d:82.37313101292415;s:3:\"LAT\";d:54.59443578368301;s:4:\"TEXT\";s:42:\"База отдыха «Пичугово»\";}}}",
+		"MAP_WIDTH" => "100%",
+		"MAP_HEIGHT" => "500",
+		"CONTROLS" => array(
+			0 => "ZOOM",
+			1 => "SMALLZOOM",
+			2 => "MINIMAP",
+			3 => "TYPECONTROL",
+			4 => "SCALELINE",
+		),
+		"OPTIONS" => array(
+			0 => "ENABLE_DBLCLICK_ZOOM",
+			1 => "ENABLE_DRAGGING",
+		),
+		"MAP_ID" => "",
+		"COMPONENT_TEMPLATE" => ".default",
+		"ZOOM_BLOCK" => array(
+			"POSITION" => "right bottom",
+		),
+		"API_KEY" => "AIzaSyAne2PJNwl-TTN0MOowYxhYwks6YUjpzvQ",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO"
+	),
+	false
+);
 			?>
 			<?Bitrix\Main\Page\Frame::getInstance()->finishDynamicWithID("map-block", "");?>
 		</div>
