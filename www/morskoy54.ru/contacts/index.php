@@ -53,7 +53,7 @@ $APPLICATION->SetTitle("Контакты");?>
 
 
 <div class="tab-content contacts_tab_content">
-	<div class="tab-pane active" id="contacts_map">
+	<div class="tab-pane" id="contacts_map">
 		<div class="map_block">
 			<?Bitrix\Main\Page\Frame::getInstance()->startDynamicWithID("map-block");?>
 			<?$APPLICATION->IncludeComponent(
@@ -89,7 +89,7 @@ $APPLICATION->SetTitle("Контакты");?>
 			<?Bitrix\Main\Page\Frame::getInstance()->finishDynamicWithID("map-block", "");?>
 		</div>
 	</div>
-	<div class="tab-pane" id="contacts_schema">
+	<div class="tab-pane active" id="contacts_schema">
 		<div class="row">
 			<div class="maxwidth-theme">
 				<div class="col-md-12">
