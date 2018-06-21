@@ -41,8 +41,8 @@ $APPLICATION->SetTitle("Контакты");?>
 </div>
 <div class="tabs contacts_tabs">
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#contacts_map" data-toggle="tab">Расположение</a></li>
-		<li><a href="#contacts_schema" data-toggle="tab">Как проехать</a></li>
+		<li><a href="#contacts_map" data-toggle="tab">Расположение</a></li>
+		<li class="active"><a href="#contacts_schema" data-toggle="tab">Как проехать</a></li>
 	</ul>
 </div>
 
