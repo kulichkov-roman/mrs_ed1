@@ -1,0 +1,1 @@
+<img alt="Схема проезда" src="<?=SITE_DIR?>include/images/schema.jpg" class="img-responsive" title="Схема проезда">
