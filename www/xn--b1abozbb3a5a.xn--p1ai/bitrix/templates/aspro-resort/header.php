@@ -37,6 +37,11 @@
 		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/jquery.dotdotdot.js');?>
 		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/general.js');?>
 		<?$APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH.'/js/custom.js');?>
+        <?$APPLICATION->IncludeFile(SITE_DIR."include/callibri_widget.php", array(), array(
+                "MODE" => "html",
+                "NAME" => "callibri",
+            )
+        );?>
 	</head>
 	<body>
 		<?CAjax::Init();?>
